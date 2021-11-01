@@ -1,0 +1,56 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+            {
+
+                String s = "Hello ";
+
+
+                s = s.concat("How are You?");  //string concatenation
+                System.out.println(s);
+            }
+        }
+    }
+
+
+//or
+public class StringPractice1 {
+    public static void main(String[] args) {
+
+        String str1 = "Hello ";
+        String str2="How Are You?";
+        String s1=str1.concat(str2);
+
+
+        System.out.println("String after concatenation: " + s1);
+    }
+}
+
+
+///without predefined concat fun:
+
+import java.util.*;
+public class strings {
+
+	private static final String system = null;
+
+	public static  void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter the first string");
+		 String fs = sc.next();  
+		  
+		  System.out.println("enter the second string");
+			   String hs = sc.next();
+			   
+			   System.out.println("after concatination");
+			   System.out.println(fs + " " + hs );
+			   
+					   
+				   
+
+	}
+
+}
